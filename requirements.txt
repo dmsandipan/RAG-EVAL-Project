@@ -1,0 +1,4 @@
+langchain_chroma
+langchain
+anthropic
+datasets

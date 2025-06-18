@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag_eval"
+version = "0.1.0"
+
+requires-python = ">= 3.11"
+
+authors = [{name = "Andre Italiano", email = "andre.italiano99@gmail.com"}]
+
+description = "Code for a rag evaluation framework"
+
+dependencies = [
+
+    "langchain_chroma",
+    "langchain",
+    "anthropic",
+    "datasets"
+]
+
+[project.urls]
+homepage = "https://github.com/andre-italiano/rag_evaluation"
+repository = "https://github.com/andre-italiano/rag_evaluation"
